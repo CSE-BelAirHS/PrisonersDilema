@@ -275,7 +275,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     ######
     ######       
     #
-    elif player == 7:
+    elif player == 7: //rickys choice
         if getting_team_name:
             return 'loyal vengeful'
         else:
