@@ -144,7 +144,7 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
     #   
     #This example player is silent at first and then 
     #only betrays if they were a sucker last round.
-    elif player == 2:
+    elif player == 2: #Mike's Choice
         if getting_team_name:
             return 'loyal vengeful'
         else:
